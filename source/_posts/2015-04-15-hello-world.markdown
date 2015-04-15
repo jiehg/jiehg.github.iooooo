@@ -25,17 +25,15 @@ GET / HTTP/1.1
 Host: my.server.com
 ```
 
-```
-common block
-with
-many
-lines
-```
+{% codeblock %}
+Awesome code snippet
+{% endcodeblock %}
 
-    a tranditional
-    block
-    with suo jin
-    before
+{% codeblock Javascript Array Syntax lang:js http://j.mp/pPUUmW MDN Documentation %}
+var arr1 = new Array(arrayLength);
+var arr2 = new Array(element0, element1, ..., elementN);
+{% endcodeblock %}
+
 
 `inline`
 
