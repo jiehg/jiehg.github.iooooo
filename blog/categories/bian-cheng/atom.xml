@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[分类：编程 | Jie's Blog]]></title>
+  <link href="http://jiehg.github.io/blog/categories/bian-cheng/atom.xml" rel="self"/>
+  <link href="http://jiehg.github.io/"/>
+  <updated>2015-04-18T02:09:20+08:00</updated>
+  <id>http://jiehg.github.io/</id>
+  <author>
+    <name><![CDATA[Jie]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Hello World]]></title>
+    <link href="http://jiehg.github.io/blog/2015/04/15/hello-world/"/>
+    <updated>2015-04-15T19:32:16+08:00</updated>
+    <id>http://jiehg.github.io/blog/2015/04/15/hello-world</id>
+    <content type="html"><![CDATA[<script type="math/tex; mode=display">f'\left( x\right) = \lim _{x\rightarrow 0}\dfrac {f\left( x+\Delta x\right) - f\left( x\right)}{\Delta x}</script>
+
+<p>好吧，这应该就是第一篇文章了。</p>
+
+<p>Jekyll 不支持 GFM 实在是蛋碎，不知道有没有什么变通的方法。</p>
+
+<p><code>js
+// 这是一段 GFM 才有的代码块
+var date = new Date();
+window.alert(date)
+</code></p>
+
+<p><code>http
+GET / HTTP/1.1
+Host: my.server.com
+</code></p>
+
+<p><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Awesome code snippet</span></code></pre></td></tr></table></div></figure></p>
+
+<p><figure class='code'><figcaption><span>Javascript Array Syntax</span><a href='http://j.mp/pPUUmW'>MDN Documentation </a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='js'><span class='line'><span class="kd">var</span> <span class="nx">arr1</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Array</span><span class="p">(</span><span class="nx">arrayLength</span><span class="p">);</span>
+</span><span class='line'><span class="kd">var</span> <span class="nx">arr2</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Array</span><span class="p">(</span><span class="nx">element0</span><span class="p">,</span> <span class="nx">element1</span><span class="p">,</span> <span class="err">…</span><span class="p">,</span> <span class="nx">elementN</span><span class="p">);</span>
+</span></code></pre></td></tr></table></div></figure></p>
+
+<p><code>inline</code></p>
+
+<p>a <code>common inline code</code> that needn’t parse.</p>
+
+<p>秘诀<a href="http://xingrz.us/assets/themes/xingrz/js/fenced-code-blocks.js">在此</a>。</p>
+]]></content>
+  </entry>
+  
+</feed>
