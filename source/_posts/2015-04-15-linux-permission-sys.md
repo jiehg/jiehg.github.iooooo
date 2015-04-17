@@ -8,11 +8,17 @@ categories: Linux
 ---
 本文为原创，首发于我的cnblog[linux权限模型简介]((http://www.cnblogs.com/P_Chou/archive/2012/12/02/linux-perm-basic.html))
 
+$$
+f'\left( x\right) = \lim _{x\rightarrow 0}\dfrac {f\left( x+\Delta x\right) - f\left( x\right)}{\Delta x}
+$$
+
 ## linux的基础权限体系是基于UGO的 ##
 
 - U:文件或文件夹的所属用户的权限
 - G:文件或文件夹的所属组队权限
 - O:其他用户对文件夹或文件的权限
+
+<!--more-->
 
 ## 权限包括 ##
 
