@@ -19,7 +19,7 @@ body > header h1 {
   @extend .heading;
   font-family: $header-title-font-family;
   font-weight: bold;
-  line-height: 1.2em;
+  line-height: 1.0em;
   margin-bottom: 0.6667em;
 }
 body > header h2 {
@@ -33,12 +33,12 @@ body {
 }
 h1 {
   font-size: 2.2em;
-  line-height: 1.2em;
+  line-height: 1.0em;
 }
 
 @media only screen and (min-width: 992px) {
   body { font-size: 1.15em; }
-  h1 { font-size: 1.6em; line-height: 1.2em; }
+  h1 { font-size: 1.6em; line-height: 1.0em; }
 }
 
 #{headings()}{
